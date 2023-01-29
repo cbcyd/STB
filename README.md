@@ -4,7 +4,8 @@ You can choose from three models: **[Magenta](https://tfhub.dev/google/magenta/a
 Bot is hosting on deepnote.com
 # Installation
 Insert your bot's token to token.txt
-'''python
+```python
 pip install -r requirements.txt
 python bot.py
-'''
+```
+
