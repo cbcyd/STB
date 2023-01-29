@@ -1,0 +1,10 @@
+numpy
+aiofiles
+aiogram
+pillow
+torch
+torchvision
+tensorflow
+tensorflow_hub
+matplotlib
+imageio
