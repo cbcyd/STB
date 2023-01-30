@@ -15,8 +15,8 @@ def dec_lap_pyr(x, levs):
     for i in range(levs):
 
         # Construct and store detail coefficients from current approx. coefficients
-        h = cur.size(2)
-        w = cur.size(3)
+        h = max(2, cur.size(2))
+        w = max(2, cur.size(3))
         x_small = F.interpolate(cur, (h // 2, w // 2), mode='bilinear')
         x_back = F.interpolate(x_small, (h, w), mode='bilinear')
         lap = cur - x_back
