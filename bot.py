@@ -28,13 +28,13 @@ from magenta import load_image, transform, show
 from NN.mainNN import loadNN, stylization
 from NN.misc import USE_GPU
 
-try:
-    import nest_asyncio
-    nest_asyncio.apply()
-except:
-    print('Running on script')
-with open('token.txt') as f:
-    bot = Bot(token=str(f.read()))
+
+#****************************
+TOKEN = 'PUT YOUR TOKEN HERE'
+#****************************
+
+
+bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 configDict = {}
 
