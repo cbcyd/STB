@@ -4,7 +4,7 @@ You can choose from three models: **[Magenta](https://tfhub.dev/google/magenta/a
 
 **[Bot](https://t.me/StyleTransfer1Bot)** is hosted on deepnote.com
 # Installation
-Insert your bot's token to token.txt
+Insert your bot's token to bot.py
 ```python
 pip install -r requirements.txt
 python bot.py
