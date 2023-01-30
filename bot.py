@@ -29,9 +29,9 @@ from NN.mainNN import loadNN, stylization
 from NN.misc import USE_GPU
 
 
-#****************************
+#*******************************************************
 TOKEN = 'PUT YOUR TOKEN HERE'
-#****************************
+#*******************************************************
 
 
 bot = Bot(token=TOKEN)
